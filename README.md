@@ -1,5 +1,5 @@
 # YOLOv5-for-Remote-Sensing-Object-Counting
-This repository contains the code for remote sensing object counting using the YOLO algorithm, which use YOLOv5x as the pre-trained weight.
+This repository contains the code for remote sensing object counting using the YOLO algorithm, which uses YOLOv5x as the pre-trained weight.
 
 
 ## Dataset 
@@ -7,12 +7,19 @@ Download RSOC_small-vehicle datasets from [here](https://github.com/gaoguangshua
 
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/example.png)
 
+
 ## Preprocess
 1) Image Split
 
 2) Label Transform
 
+![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/image_split.png)
+
+
 ## Visualization
+
+
+![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/result.png)
 
 ## Environment
 
