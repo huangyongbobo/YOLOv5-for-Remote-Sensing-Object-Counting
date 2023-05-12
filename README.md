@@ -1,5 +1,5 @@
 # YOLOv5-for-Remote-Sensing-Object-Counting
-This repository contains the code for remote sensing object counting using the YOLOv5 algorithm.
+This repository contains the code for remote sensing object counting using the YOLO algorithm, which use YOLOv5x as the pre-trained weight.
 
 
 ## Dataset 
