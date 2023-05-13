@@ -39,10 +39,27 @@ we provide `preprocess->label_transform.py` to convert this label formats to the
 
 
 ## Visualization
-Although detection-based methods have attempted to count objects with varying degrees of successes, yet they do not perform well in highly congested scenarios, as can be seen from the red rectangular box in the right image.
+The following are some detection examples from the RSOC_small-vehicle dataset. Although detection-based methods have attempted to count objects with varying degrees of successes, yet they do not perform well in highly congested scenarios, as can be seen from the red rectangular box in the right image. 
 
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/result.png)
 
+
 ## Environment
+
+```
+Configuration: 
+* GPU: NVIDIA Titan X
+* Memory: 12GB
+* CPU: Intel Xeon E5-2640Wv4 
+* Operating system: Ubuntu 16.04.1
+
+Runtime: 
+* python: 3.7
+* pytorch: 1.4.0  
+* torchvision: 0.5.0
+* cuda: 9.2 
+* numpy: 1.19.4
+```
+
 
 ## Code Structure
