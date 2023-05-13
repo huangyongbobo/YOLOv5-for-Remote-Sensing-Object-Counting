@@ -4,9 +4,7 @@ This repository contains the code for remote sensing object counting using the Y
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/detect_result.png)
 
 ## Dataset 
-Download RSOC_small-vehicle datasets from [here](https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method). This dataset is collected from the [DOTA dataset](https://captain-whu.github.io/DOTA/dataset.html), which is a very large dataset built for object detection in aerial images. The following are some example images from the RSOC_small-vehicle dataset. 
-
-![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/example.png)
+Download RSOC_small-vehicle, RSOC_large-vehicle, and RSOC_ship datasets from [here](https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method). These datasets are collected from the [DOTA dataset](https://captain-whu.github.io/DOTA/dataset.html), which is a very large dataset built for object detection in aerial images. 
 
 
 ## Preprocess
