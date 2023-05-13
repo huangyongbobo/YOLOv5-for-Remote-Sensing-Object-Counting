@@ -10,7 +10,7 @@ Download RSOC_small-vehicle datasets from [here](https://github.com/gaoguangshua
 
 ## Preprocess
 ### 1) Image Split
-
+In response to the large size of the satellite images, we divided the original images into sub-images based on the object distribution positions and adjusted the size of each sub-image to 1024 × 1024. 
 
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/image_split.png)
 
@@ -25,8 +25,8 @@ The label formats in the original dataset is as follows.
 * `class` is the object category. 
 * `difficulty` is the detection difficulty (0/1: simple/difficult).
 
-we provide `preprocess->label_transform.py` to convert this label formats to the specific formats for YOLO model.
- 
+we provide `preprocess->label_transform.py` to convert this label formats to the specific formats for YOLO model. 
+
 ```
 <class> <x_center> <y_center> <width> <height>
 ``` 
