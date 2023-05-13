@@ -1,7 +1,8 @@
 # YOLOv5-for-Remote-Sensing-Object-Counting
-This repository contains the code for remote sensing object counting using the YOLO algorithm, which uses YOLOv5x as the pre-trained weight.
+This repository contains the code for remote sensing object counting using the YOLO algorithm, which uses YOLOv5 as the pre-trained weight.
 
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/detect_result.png)
+
 
 ## Dataset 
 Download RSOC_small-vehicle, RSOC_large-vehicle, and RSOC_ship datasets from [here](https://github.com/gaoguangshuai/Counting-from-Sky-A-Large-scale-Dataset-for-Remote-Sensing-Object-Counting-and-A-Benchmark-Method). These datasets are collected from the [DOTA dataset](https://captain-whu.github.io/DOTA/dataset.html), which is a very large dataset built for object detection in aerial images. 
@@ -38,7 +39,7 @@ we provide `preprocess->label_transform.py` to convert this label formats to the
 
 
 ## Visualization
-
+Although detection-based methods have attempted to count objects with varying degrees of successes, yet they do not perform well in highly congested scenarios, as can be seen from the red rectangular box in the right image.
 
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/show_image/result.png)
 
