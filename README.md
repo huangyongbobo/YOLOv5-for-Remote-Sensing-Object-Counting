@@ -46,7 +46,6 @@ The following are some detection examples from the RSOC_small-vehicle dataset. A
 
 ## Environment
 
-```
 Configuration: 
 * GPU: NVIDIA Titan X
 * Memory: 12GB
@@ -59,7 +58,6 @@ Runtime:
 * torchvision: 0.5.0
 * cuda: 9.2 
 * numpy: 1.19.4
-```
 
 
 ## Code Structure
