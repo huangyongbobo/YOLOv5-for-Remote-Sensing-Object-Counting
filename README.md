@@ -61,3 +61,9 @@ Runtime:
 
 
 ## Code Structure
+
+* `preprocess`: code for splitting images and transforming label. 
+* `train`: code for training. 
+* `test`: code for evaluation. 
+* `detect`: code for detecting object in remote sensing images. 
+* `object_count`: code for counting object. 
