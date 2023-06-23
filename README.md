@@ -46,7 +46,7 @@ We transformed the pytorch model into ONNX format and used the Microsoft inferen
 ![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/ship.gif)
 
 <div align=center>
-<img src="(https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/ship.gif" width="180" height="105">
+<img src="https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/ship.gif" width="180" height="105">
 </div>
 
 
