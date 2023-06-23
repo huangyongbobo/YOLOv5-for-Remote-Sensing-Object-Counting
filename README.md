@@ -41,14 +41,13 @@ We provide `preprocess->label_transform.py` to convert this label format to the 
 ## ONNX Runtime Deploy
 We transformed the pytorch model into ONNX format and used the Microsoft inference framework ONNX Runtime to perform inference detection on the video taken by drones. The following are two examples of detecting and counting small-vehicle and ship, respectively.
 
-![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/small-vehicle.gif)
-
-![](https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/ship.gif)
+<div align=center>
+<img src="https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/small-vehicle.gif" width="600" height="338">
+</div>
 
 <div align=center>
 <img src="https://github.com/huangyongbobo/YOLOv5-for-Remote-Sensing-Object-Counting/blob/main/ship.gif" width="600" height="338">
 </div>
-
 
 
 ## Visualization
